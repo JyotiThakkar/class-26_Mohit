@@ -6,6 +6,8 @@ class Ground {
       this.body = Bodies.rectangle(x,y,width,height,options);
       this.width = width;
       this.height = height;
+      this.r=24;
+      
       World.add(world, this.body);
     }
     display(){
